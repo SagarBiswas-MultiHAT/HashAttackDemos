@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+dist/
+build/
+hash_password_cracker/tempCodeRunnerFile.py
+tempCodeRunnerFile.py
+hash_records.json
+hash_records*.json

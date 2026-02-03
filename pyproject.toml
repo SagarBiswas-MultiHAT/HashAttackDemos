@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hash-password-cracker"
+version = "1.0.0"
+description = "Educational password hashing utilities and attack demos"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Hash Password Cracker Contributors" }
+]
+dependencies = [
+  "argon2-cffi",
+  "bcrypt",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[tool.setuptools]
+packages = ["hash_password_cracker"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
