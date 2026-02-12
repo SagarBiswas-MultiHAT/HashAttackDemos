@@ -1,5 +1,16 @@
 # Password Hashing Utilities and Attack Demos
 
+<div align="right">
+
+[![CI](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos/actions/workflows/python-ci.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos/actions/workflows/python-ci.yml)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/HashAttackDemos)](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos/blob/main/LICENSE)
+[![Tests](https://img.shields.io/badge/tests-pytest-brightgreen)](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos/actions)
+[![Last commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/HashAttackDemos)](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos)
+[![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/HashAttackDemos)](https://github.com/SagarBiswas-MultiHAT/HashAttackDemos/issues)
+
+</div>
+
 This repository is a compact, readable set of Python utilities that teach two things:
 
 - How to hash passwords correctly with modern algorithms (Argon2id, bcrypt, scrypt)
